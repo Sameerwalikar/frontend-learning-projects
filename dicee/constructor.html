@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //trational method
+        let bellboy1={
+            name:"sameer",
+            age:19,
+            languages:["english","hindi"],
+            movesuitcase:function(){
+                console.log("May i take ur suitcase?");
+            }
+        }
+        let bellboy2={
+            name:"karan",
+            age:24,
+            languages:["english","hindi"],
+             movesuitcase:function(){  //this is an anonomous function(method) which has no name and it works only for that particular line
+                console.log("May i take ur suitcase?");
+            }
+        }
+        console.log(bellboy1)
+        console.log(bellboy1.name)
+        bellboy1.movesuitcase();
+
+
+        //constructor
+        function BellBoy(name,age,languages,clean){ // Bellboy is constructor function
+            this.name=name;
+            this.age=age;
+            this.languages=languages;
+            this.clean=function(){  // this is a method
+                alert("cleaning in progress...")
+            }
+        }
+        let bellboy3=new BellBoy("pandey",19,["english","french"]); //bellboy3&4 are objects
+        let bellboy4=new BellBoy("abhi",19, "english")
+        console.log(bellboy3)
+        console.log(bellboy4)
+       // bellboy3.clean();
+
+        //constructor-->chatgpt question
+        function Car(brand,model,year,start){
+            this.brand=brand;
+            this.model=model;
+            this.year=year;
+            this.start=function(){
+            //    alert(`Engine of ${this.brand} ${this.model} is starting`);
+            }
+        }
+        let car1=new Car("bmw","m4",1980)
+        console.log(car1);
+        car1.start();
+
+        // intermediate level qn by chatgpt
+        function Bank(BankAccount, ownerName, balance, accountNumber){
+            this.BankAccount=BankAccount;
+            this.ownerName=ownerName;
+            this.balance=balance;
+            this.accountNumber=accountNumber;
+            this.deposit=function(amount){
+                this.balance+=amount
+                alert(`Your deposited amount was ${amount} and new bank balance is ${this.balance}`)
+            }
+        }
+        let suresh=new Bank(1234,"suresh",2000,1304823)
+        console.log(suresh);
+        suresh.deposit(4500)
+    </script>
+</body>
+</html>
