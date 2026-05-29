@@ -1,6 +1,6 @@
 # Frontend Projects
 
-A collection of frontend projects I built while learning HTML, CSS, JavaScript, and jQuery. These projects helped me understand core web development concepts such as DOM manipulation, event handling, animations, game logic, and user interaction.
+A collection of frontend projects I built while learning HTML, CSS, JavaScript, and jQuery. These projects helped me understand core web development concepts such as DOM manipulation, event handling, animations, game logic, randomness, and user interaction.
 
 ## Projects
 
@@ -32,6 +32,27 @@ A browser-based implementation of the classic Simon memory game. Players must re
 
 ---
 
+### 🎲 Dicee Game
+
+A simple two-player dice game where refreshing the page rolls two random dice and automatically declares the winner.
+
+**Features:**
+
+* Random dice generation
+* Dynamic image updates
+* Automatic winner detection
+* Responsive and simple UI
+
+**Concepts practiced:**
+
+* JavaScript random number generation
+* DOM manipulation
+* Updating HTML attributes dynamically
+* Conditional statements
+* Working with images and assets
+
+---
+
 ## Tech Stack
 
 * HTML5
@@ -49,8 +70,26 @@ Clone the repository and open any project's `index.html` file in your browser, o
 git clone <repository-url>
 ```
 
+Then navigate to the desired project folder and open `index.html`.
+
+---
+
+## Learning Outcomes
+
+Through these projects, I gained hands-on experience with:
+
+* DOM manipulation
+* Event handling
+* Game development logic
+* Random number generation
+* JavaScript functions and control flow
+* CSS animations and styling
+* jQuery fundamentals
+
+---
+
 ## Notes
 
-These projects were created during my frontend learning journey and are being preserved as reference implementations and learning resources for beginners.
+These projects were created during my frontend development learning journey and are being preserved as reference implementations and learning resources for beginners.
 
-More projects will be added to this repository over time.
+More projects will be added to this repository as I continue building and learning.
