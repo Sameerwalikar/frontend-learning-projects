@@ -181,7 +181,7 @@ As I continue my frontend development journey, I plan to add:
 
 ## 👨‍💻 Author
 
-### Sameer Raj
+### Sameer Walikar
 
 Computer Engineering Student passionate about:
 

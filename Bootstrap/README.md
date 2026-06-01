@@ -70,13 +70,6 @@ git clone https://github.com/your-username/move-it.git
 
 Or use **VS Code Live Server** for a better development experience.
 
-## 📸 Screenshots
-
-Add screenshots of your project here.
-
-| Home Page   | Features    | Carousel    |
-| ----------- | ----------- | ----------- |
-| Coming Soon | Coming Soon | Coming Soon |
 
 ## 🎯 Key Concepts Demonstrated
 
@@ -97,7 +90,7 @@ Add screenshots of your project here.
 
 ## 👨‍💻 Author
 
-**Sameer Raj**
+**Sameer Walikar**
 
 Computer Engineering Student | Web Development Enthusiast
 
