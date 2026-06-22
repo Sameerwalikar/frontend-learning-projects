@@ -2,10 +2,10 @@ import React from "react"
 export default function App(){
   const [count,setCount]=React.useState(0)
   function add(){
-    setCount(count+1)
+    setCount(prevCount=>prevCount+1)
   }
   function sub(){
-    setCount(count-1)
+    setCount(prevCount=>prevCount-1)
   }
 
   return(
